@@ -1,8 +1,8 @@
 class Karyawan{
-    private int id;
-    private String nama;
-    private int gaji;
-    private String jabatan;
+    public int id;
+    public String nama;
+    public int gaji;
+    public String jabatan;
     public Karyawan(int idKaryawan, String namaKaryawan, int gajiKaryawan, String jabatanNya){
         id = idKaryawan;
         nama = namaKaryawan;
